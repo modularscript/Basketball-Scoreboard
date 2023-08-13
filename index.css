@@ -1,20 +1,195 @@
+@font-face {
+    font-family: "Cursed Timer ULiL-Regular";
+    src: url("https://anima-uploads.s3.amazonaws.com/5ec5f7b7e1ca221ced3caaa2/CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Verdana-Bold";
+    src: url("https://anima-uploads.s3.amazonaws.com/5b464a350d4429000a5a8fc8/Verdana Bold.ttf") format("truetype");
+}
+
 body {
     margin: 0;
-    background-color: dimgray;
 }
 
 .container {
+    background-color: #1b244a;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    background: #1B244A;
-    width: 575px;
+    width: 100%;
+}
+
+.container .part {
+    background-color: #1b244a;
+    border: 1px none;
     height: 385px;
-    color: #EEE;
+    position: relative;
+    width: 575px;
+}
+
+.container .add-points-btns-home {
+    height: 45px;
+    left: 82px;
+    position: absolute;
+    top: 271px;
+    width: 155px;
+}
+
+.container .plus-three-point {
+    height: 45px;
+    left: 110px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.container .overlap-group {
+    border: 2px solid;
+    border-color: #99aad7;
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    width: 45px;
+}
+
+.container .text-wrapper {
+    color: #99aad7;
+    font-family: "Cursed Timer ULiL-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: 27.8px;
+    position: absolute;
     text-align: center;
-    font-family: Verdana;
+    top: 7px;
+    white-space: nowrap;
+    width: 30px;
+}
+
+.container .plus-two-point {
+    height: 45px;
+    left: 54px;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.container .overlap {
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    width: 45px;
+}
+
+.container .text-wrapper-2 {
+    color: #99aad7;
+    font-family: "Cursed Timer ULiL-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: 27.8px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+    width: 30px;
+}
+
+.container .rectangle {
+    border: 2px solid;
+    border-color: #99aad7;
+    border-radius: 5px;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 45px;
+}
+
+.container .plus-one-point {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 47px;
+}
+
+.container .add-points-btns-home-2 {
+    height: 45px;
+    left: 337px;
+    position: absolute;
+    top: 271px;
+    width: 155px;
+}
+
+.container .overlap-2 {
+    height: 121px;
+    left: 82px;
+    position: absolute;
+    top: 124px;
+    width: 155px;
+}
+
+.container .home-score {
+    background-color: #080001;
+    border-radius: 5px;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 155px;
+}
+
+.container .home-points-text {
+    color: #f94f6d;
+    font-family: "Cursed Timer ULiL-Regular", Helvetica;
+    font-size: 90px;
+    font-weight: 400;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 126.7px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 117px;
+}
+
+.container .overlap-3 {
+    height: 121px;
+    left: 337px;
+    position: absolute;
+    top: 124px;
+    width: 155px;
+}
+
+.container .board-title-home {
+    color: #eeeeee;
+    font-family: "Verdana-Bold", Helvetica;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 35.893px;
-    margin: 33% auto;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 35.9px;
+    position: absolute;
+    text-align: center;
+    top: 67px;
+    width: 149px;
+}
+
+.container .board-title-home-2 {
+    color: #eeeeee;
+    font-family: "Verdana-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 340px;
+    letter-spacing: 0;
+    line-height: 35.9px;
+    position: absolute;
+    text-align: center;
+    top: 67px;
+    width: 149px;
 }
