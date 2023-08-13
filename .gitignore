@@ -1,2 +1,7 @@
 node_modules
 dist
+.cache
+.yarn
+.DS_Store
+Thumbs.db
+desktop.ini
