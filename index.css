@@ -1,8 +1,20 @@
 body {
     margin: 0;
+    background-color: dimgray;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+    margin: 33% auto;
 }
