@@ -21,7 +21,7 @@ body {
 }
 
 .container .part {
-  background-color: #1b244a;
+  /* background-color: #1b244a; */
   border: 1px none;
   height: 385px;
   position: relative;
@@ -130,16 +130,6 @@ body {
   left: 82px;
   position: absolute;
   top: 124px;
-  width: 155px;
-}
-
-.container .home-score {
-  background-color: #080001;
-  border-radius: 5px;
-  height: 120px;
-  left: 0;
-  position: absolute;
-  top: 1px;
   width: 155px;
 }
 
