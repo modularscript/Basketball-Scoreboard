@@ -1,5 +1,20 @@
 {
   "cSpell.words": [
     "btns"
-  ]
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.gitattributes": false,
+    "**/.idea": true,
+    "**/.phpintel": true,
+    "**/.vscode": true,
+    "**/desktop.ini": true,
+    "**/node_modules": true
+  },
+  "explorerExclude.backup": {}
 }
