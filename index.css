@@ -23,22 +23,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 575px;
-  height: 385px;
+  width: 585px;
+  height: 415px;
   margin: 0 auto;
-
 }
 
 .board-title {
   font-family: "Verdana-Bold", Helvetica;
   display: flex;
-  align-items: flex-end;
   justify-content: space-evenly;
-  /* gap: 15%; */
   color: aliceblue;
   font-weight: 700;
   font-size: 1.8rem;
-  /* align-content: flex-end; */
 }
 
 .board-title-home {
@@ -46,23 +42,15 @@
   font-family: "Verdana-Bold", Helvetica;
   font-size: 40px;
   font-weight: 700;
-  /* left: 85px; */
   letter-spacing: 0;
   line-height: 35.9px;
-  /* position: absolute; */
   text-align: center;
-  /* top: 67px; */
   width: 149px;
 }
 
 .score-display {
   display: flex;
-  align-items: center;
-  align-items: space-between;
-  justify-content: baseline;
-  gap: 15%;
-  text-align: center;
-  margin: 0 auto;
+  justify-content: space-evenly;
 }
 
 
@@ -71,186 +59,26 @@
 
 .score-buttons {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  gap: 16px;
 }
 
-.add-points-btn-home {
+.add-points-btns {
   display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
-  /* flex-wrap: nowrap; */
-  align-content: center;
-  /* align-items: flex-start; */
+  gap: 6px;
+  justify-content: space-around;
+  align-content: space-between;
 }
 
 
-.add-points-btn-home button {
 
+.add-points-btns button {
   background-color: #1b244a;
   border: 2px solid #99aad7;
   border-radius: 5px;
   color: #99aad7;
   font-family: "Cursed Timer ULiL-Regular", Helvetica;
   font-weight: 400;
+  padding: 9px;
+  margin: 0 0 0 3px;
 }
-
-
-
-
-
-/* .add-points-btn-home {
-  height: 45px;
-  left: 82px;
-  position: absolute;
-  top: 271px;
-  width: 155px;
-}
-
-.add-points-btn-home-2 {
-  height: 45px;
-  left: 337px;
-  position: absolute;
-  top: 271px;
-  width: 155px;
-}
-
-
-.plus-three-point {
-  height: 45px;
-  left: 110px;
-  position: absolute;
-  top: 0;
-  width: 47px;
-}
-
-.overlap-group {
-  border: 2px solid;
-  border-color: #99aad7;
-  border-radius: 5px;
-  height: 45px;
-  position: relative;
-  width: 45px;
-}
-
-.text-wrapper {
-  color: #99aad7;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 5px;
-  letter-spacing: 0;
-  line-height: 27.8px;
-  position: absolute;
-  text-align: center;
-  top: 7px;
-  white-space: nowrap;
-  width: 30px;
-}
-
-.plus-two-point {
-  height: 45px;
-  left: 54px;
-  position: absolute;
-  top: 0;
-  width: 47px;
-}
-
-.overlap {
-  border-radius: 5px;
-  height: 45px;
-  position: relative;
-  width: 45px;
-}
-
-.text-wrapper-2 {
-  color: #99aad7;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 7px;
-  letter-spacing: 0;
-  line-height: 27.8px;
-  position: absolute;
-  text-align: center;
-  top: 9px;
-  white-space: nowrap;
-  width: 30px;
-}
-
-.rectangle {
-  border: 2px solid;
-  border-color: #99aad7;
-  border-radius: 5px;
-  height: 45px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 45px;
-}
-
-.plus-one-point {
-  height: 45px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 47px;
-}
-
-
-
-.overlap-2 {
-  left: 82px;
-  position: absolute;
-  top: 124px;
-}
-
-.home-points-text {
-  color: #f94f6d;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 90px;
-  font-weight: 400;
-  left: 18px;
-  letter-spacing: 0;
-  line-height: 126.7px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 117px;
-}
-
-.overlap-3 {
-  left: 337px;
-  position: absolute;
-  top: 124px;
-}
-
-.board-title-home {
-  color: #eeeeee;
-  font-family: "Verdana-Bold", Helvetica;
-  font-size: 40px;
-  font-weight: 700;
-  left: 85px;
-  letter-spacing: 0;
-  line-height: 35.9px;
-  position: absolute;
-  text-align: center;
-  top: 67px;
-  width: 149px;
-}
-
-.board-title-home-2 {
-  color: #eeeeee;
-  font-family: "Verdana-Bold", Helvetica;
-  font-size: 40px;
-  font-weight: 700;
-  left: 340px;
-  letter-spacing: 0;
-  line-height: 35.9px;
-  position: absolute;
-
-  text-align: center;
-  top: 67px;
-  width: 149px;
-} */
