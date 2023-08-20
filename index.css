@@ -29,13 +29,11 @@
 }
 
 .board-title {
-  font-family: "Verdana-Bold", Helvetica;
   display: flex;
   justify-content: space-evenly;
-  color: aliceblue;
 }
 
-.board-title-home {
+.board-title-text {
   color: #eeeeee;
   font-family: "Verdana-Bold", Helvetica;
   font-size: 40px;
@@ -52,14 +50,13 @@
 }
 
 
-
 /*PART: Score Buttons */
 
 .score-buttons {
   display: flex;
   justify-content: space-evenly;
-  gap: 16px;
-  padding: .9em;
+  gap: 19px;
+  padding: 1.3em;
 }
 
 .add-points-btns {
@@ -68,7 +65,6 @@
   justify-content: space-around;
   align-content: space-between;
 }
-
 
 
 .add-points-btns button {
