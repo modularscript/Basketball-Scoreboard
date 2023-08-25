@@ -49,6 +49,21 @@
   justify-content: space-evenly;
 }
 
+.overlap {
+  position: relative;
+}
+
+.points-number {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Cursed Timer ULiL-Regular;
+  font-size: 5.5rem;
+  font-weight: 400;
+  color: orangered;
+  text-align: center;
+}
 
 /*PART: Score Buttons */
 
