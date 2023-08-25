@@ -16,172 +16,79 @@
 
 .container {
   background-color: #1b244a;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   width: 100%;
 }
 
 .part {
-  /* background-color: #1b244a; */
-  border: 1px none;
-  height: 385px;
-  position: relative;
-  width: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 585px;
+  height: 415px;
+  margin: 0 auto;
 }
 
-.add-points-btns-home {
-  height: 45px;
-  left: 82px;
-  position: absolute;
-  top: 271px;
-  width: 155px;
+.board-title {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.plus-three-point {
-  height: 45px;
-  left: 110px;
-  position: absolute;
-  top: 0;
-  width: 47px;
-}
-
-.overlap-group {
-  border: 2px solid;
-  border-color: #99aad7;
-  border-radius: 5px;
-  height: 45px;
-  position: relative;
-  width: 45px;
-}
-
-.text-wrapper {
-  color: #99aad7;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 5px;
+.board-title-text {
+  color: #eeeeee;
+  font-family: "Verdana-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
   letter-spacing: 0;
-  line-height: 27.8px;
-  position: absolute;
+  line-height: 35.9px;
   text-align: center;
-  top: 7px;
-  white-space: nowrap;
-  width: 30px;
+  width: 149px;
 }
 
-.plus-two-point {
-  height: 45px;
-  left: 54px;
-  position: absolute;
-  top: 0;
-  width: 47px;
+.score-display {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .overlap {
-  border-radius: 5px;
-  height: 45px;
   position: relative;
-  width: 45px;
 }
 
-.text-wrapper-2 {
+.points-number {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Cursed Timer ULiL-Regular;
+  font-size: 5.5rem;
+  font-weight: 400;
+  color: orangered;
+  text-align: center;
+}
+
+/*PART: Score Buttons */
+
+.score-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 19px;
+  padding: 1.3em;
+}
+
+.add-points-btns {
+  display: flex;
+  gap: 6px;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+
+.add-points-btns button {
+  background-color: #1b244a;
+  border: 2px solid #99aad7;
+  border-radius: 5px;
   color: #99aad7;
   font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 18px;
   font-weight: 400;
-  left: 7px;
-  letter-spacing: 0;
-  line-height: 27.8px;
-  position: absolute;
-  text-align: center;
-  top: 9px;
-  white-space: nowrap;
-  width: 30px;
-}
-
-.rectangle {
-  border: 2px solid;
-  border-color: #99aad7;
-  border-radius: 5px;
-  height: 45px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 45px;
-}
-
-.plus-one-point {
-  height: 45px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 47px;
-}
-
-.add-points-btns-home-2 {
-  height: 45px;
-  left: 337px;
-  position: absolute;
-  top: 271px;
-  width: 155px;
-}
-
-.overlap-2 {
-  height: 121px;
-  left: 82px;
-  position: absolute;
-  top: 124px;
-  width: 155px;
-}
-
-.home-points-text {
-  color: #f94f6d;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-size: 90px;
-  font-weight: 400;
-  left: 18px;
-  letter-spacing: 0;
-  line-height: 126.7px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-  width: 117px;
-}
-
-.overlap-3 {
-  height: 121px;
-  left: 337px;
-  position: absolute;
-  top: 124px;
-  width: 155px;
-}
-
-.board-title-home {
-  color: #eeeeee;
-  font-family: "Verdana-Bold", Helvetica;
-  font-size: 40px;
-  font-weight: 700;
-  left: 85px;
-  letter-spacing: 0;
-  line-height: 35.9px;
-  position: absolute;
-  text-align: center;
-  top: 67px;
-  width: 149px;
-}
-
-.board-title-home-2 {
-  color: #eeeeee;
-  font-family: "Verdana-Bold", Helvetica;
-  font-size: 40px;
-  font-weight: 700;
-  left: 340px;
-  letter-spacing: 0;
-  line-height: 35.9px;
-  position: absolute;
-  text-align: center;
-  top: 67px;
-  width: 149px;
+  padding: 9px;
+  margin: 0 0 0 3px;
 }
