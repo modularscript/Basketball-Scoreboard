@@ -1,72 +1,59 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     
-    <link rel="stylesheet" href="/assets/index-dc27668a.css">
+    <link rel="stylesheet" href="/assets/index-1a09e327.css">
   </head>
 
   <body>
-
-
     <div class="container">
       <div class="part">
-        <div class="board-title-home">HOME</div>
-        <div class="board-title-home-2">GUEST</div>
-        <div class="add-points-btns-home">
-          <div class="plus-three-point">
-            <div class="overlap-group">
-              <div class="text-wrapper">+3</div>
-            </div>
-          </div>
-          <div class="plus-two-point">
-            <div class="overlap">
-              <div class="text-wrapper-2">+2</div>
-              <div class="rectangle"></div>
-            </div>
-          </div>
-          <div class="plus-one-point">
-            <div class="overlap">
-              <div class="text-wrapper-2">+1</div>
-              <div class="rectangle"></div>
-            </div>
-          </div>
-        </div>
-        <div class="add-points-btns-home-2">
-          <div class="plus-three-point">
-            <div class="overlap-group">
-              <div class="text-wrapper">+3</div>
-            </div>
-          </div>
-          <div class="plus-two-point">
-            <div class="overlap">
-              <div class="text-wrapper-2">+2</div>
-              <div class="rectangle"></div>
-            </div>
-          </div>
-          <div class="plus-one-point">
-            <div class="overlap">
-              <div class="text-wrapper-2">+1</div>
-              <div class="rectangle"></div>
-            </div>
-          </div>
-        </div>
-        <div class="overlap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="155" height="120" viewBox="0 0 155 120" fill="none">
-            <rect width="155" height="120" rx="5" fill="#080001" />
-          </svg>
-          <div class="home-points-text">0</div>
-        </div>
-        <div class="overlap-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="155" height="120" viewBox="0 0 155 120" fill="none">
-            <rect width="155" height="120" rx="5" fill="#080001" />
-          </svg>
-          <div class="home-points-text">0</div>
+        <div class="board-title">
+          <p class="board-title-text">HOME</p>
+          <p class="board-title-text">GUEST</p>
         </div>
 
+        <div class="score-display">
+          <!--Note: Vector elementals
+            https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
+          -->
+          <div class="overlap">
+            <div class="black-screen">
+              <svg xmlns="http://www.w3.org/2000/svg" width="155" height="120" viewBox="0 0 155 120" fill="none">
+                <rect width="155" height="120" rx="5" fill="#080001" />
+              </svg>
+              <div id="home-score" class="score">0</div>
+            </div>
+          </div>
+
+          <div class="overlap">
+            <div class="black-screen">
+              <svg xmlns="http://www.w3.org/2000/svg" width="155" height="120" viewBox="0 0 155 120" fill="none">
+                <rect width="155" height="120" rx="5" fill="#080001" />
+              </svg>
+              <div id="guest-score" class="score">0</div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="score-buttons">
+          <div class="add-points-btns">
+            <button onclick="addHome1()" class="one-point-home">+1</button>
+            <button onclick="addHome2()" class="two-point-home">+2</button>
+            <button onclick="addHome3()" class="three-point-home">+3</button>
+          </div>
+          <div class="add-points-btns">
+            <button onclick="addGuest1()" class="one-point-guest">+1</button>
+            <button onclick="addGuest2()" class="two-point-guest">+2</button>
+            <button onclick="addGuest3()" class="three-point-guest">+3</button>
+          </div>
+        </div>
       </div>
     </div>
-
 
     <script src="index.js"></script>
   </body>

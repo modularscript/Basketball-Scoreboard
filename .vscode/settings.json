@@ -15,7 +15,7 @@
     "**/.phpintel": true,
     "**/.vscode": true,
     "**/desktop.ini": true,
-    "**/node_modules": true
+    "**/node_modules": false
   },
   "explorerExclude.backup": {}
 }
