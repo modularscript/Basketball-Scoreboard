@@ -53,10 +53,10 @@
   position: relative;
 }
 
-.points-number {
+.score {
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 41%;
   transform: translate(-50%, -50%);
   font-family: Cursed Timer ULiL-Regular;
   font-size: 5.5rem;
